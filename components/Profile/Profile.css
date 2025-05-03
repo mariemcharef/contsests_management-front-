@@ -1,0 +1,461 @@
+
+.profile-container {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2.5rem;
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .rating-display {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #2d3748;
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .rating-value {
+    color: #f6ad55;
+    font-size: 1.3rem;
+  }
+ 
+  .role-title-profile {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #4a5568;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  
+  .roles-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    border:none;
+    margin-bottom: 2.5rem;
+  }
+
+  
+  .role{
+    width: 100%;
+    padding: 0.6rem;
+    background-color: #558fbf;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 0.95rem;
+    letter-spacing: 0.5px;
+  }
+  .role.active{
+    background-color: #3182ce;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(66, 153, 225, 0.25);
+  
+  }
+  
+  .role:hover {
+    background-color: #3182ce;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(66, 153, 225, 0.25);
+  }
+  
+  
+  .role-item:not(.active-role) {
+    background-color: #edf2f7;
+    color: #4a5568;
+  }
+  
+  .role-item:not(.active-role):hover {
+    background-color: #e2e8f0;
+    transform: translateY(-2px);
+  }
+  
+  .active-role {
+    background-color: #4299e1;
+    color: white;
+    box-shadow: 0 4px 6px rgba(66, 153, 225, 0.3);
+  }
+
+  .section-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #1a202c;
+    margin-bottom: 1.75rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid #e2e8f0;
+    position: relative;
+  }
+  
+  .section-title::after {
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 60px;
+    height: 3px;
+    background: #4299e1;
+    border-radius: 3px;
+  }
+  
+  .password-form {
+    margin-bottom: 3rem;
+  }
+  
+  .form-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #2d3748;
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+  }
+  
+  .form-title::before {
+    content: '';
+    display: block;
+    width: 6px;
+    height: 20px;
+    background: #4299e1;
+    border-radius: 3px;
+  }
+  
+  .form-group-profile {
+    margin-bottom: 1.25rem;
+    display:flex;
+    flex-direction: row;
+    gap:10px
+  }
+  
+  .form-label {
+    display: block;
+    color: #4a5568;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    font-size: 0.9rem;
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 0.85rem 1.25rem;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    transition: all 0.3s ease;
+    background: #f8fafc;
+  }
+  .voir_team_memmbres{
+    margin-left:10px;
+    cursor: pointer;
+  }
+
+  .form-input:focus {
+    outline: none;
+    border-color: #4299e1;
+    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.2);
+    background: white;
+  }
+  .form_team:focus{
+    
+    outline: none;
+    border-color: #4299e1;
+    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.2);
+    background: white;
+  }
+
+  .form_membre:focus{
+    outline: none;
+    border-color: #4299e1;
+    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.2);
+    background: white;
+  }
+
+  .form_membre{
+    width: calc(90% - 50px);
+  padding: 0.8rem 1rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 1rem;
+  margin-right: 10px;
+    
+  }
+  .form_team{
+    width: 100%;
+    padding: 0.85rem 1.25rem;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    transition: all 0.3s ease;
+    background: #f8fafc;
+    
+  }
+
+  .submit-button {
+    width: 100%;
+    padding: 1rem;
+    background-color: #4299e1;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 1rem;
+    font-size: 0.95rem;
+    letter-spacing: 0.5px;
+  }
+  .submit-button:disabled{
+    background-color: gray;
+    cursor: not-allowed;
+  }
+  
+  .submit-button:not(:disabled):hover {
+    background-color: #3182ce;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(66, 153, 225, 0.25);
+  }
+.create_team:disabled{
+  background-color: gray;
+  cursor: not-allowed;
+}
+  .create_team {
+    width: 10%;
+    padding: 0.6rem;
+    background-color: #558fbf;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 0.95rem;
+    letter-spacing: 0.5px;
+  }
+  .danger-zone {
+    padding-top: 2rem;
+    border-top: 1px solid #e2e8f0;
+  }
+  
+  .danger-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #e53e3e;
+    margin-bottom: 1.25rem;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+  }
+  
+  .danger-title::before {
+    content: '';
+    display: block;
+    width: 6px;
+    height: 20px;
+    background: #e53e3e;
+    border-radius: 3px;
+  }
+  
+  .danger-warning {
+    color: #718096;
+    margin-bottom: 1.5rem;
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+  
+  .delete-button {
+    width: 100%;
+    padding: 1rem;
+    background-color: #e53e3e;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 0.95rem;
+    letter-spacing: 0.5px;
+  }
+  
+  .delete-button:hover {
+    background-color: #c53030;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(229, 62, 62, 0.25);
+  }
+  
+  .delete-button:disabled {
+    background-color: #fed7d7;
+    color: #e53e3e;
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: none;
+  }
+  .action-buttons {
+    display: flex;
+    gap: 10px;
+    margin: 1px 0;
+    width:100%
+  }
+  
+  .edit-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.5rem;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 0.95rem;
+    letter-spacing: 0.5px;
+  }
+  .edit-btn:disabled{
+    background-color: grey;
+    cursor:not-allowed;
+  }
+  .quit-btn{
+    background-color: #f44336;
+    color: white;
+  }
+  .red{
+    color:red;
+  }
+  .green{
+    color:green;
+  }
+  .delete-btn {
+    background-color: #f44336;
+    color: white;
+    padding: 0.5rem;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 0.95rem;
+    letter-spacing: 0.5px;
+    
+  }
+  
+  .delete-team-btn {
+    background-color: #ff9800;
+    color: white;
+  }
+  .role_action{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    max-height: 40px;
+  }
+ 
+  .action-buttons button {
+    padding: 6px 13px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  
+  .action-buttons button:hover {
+    opacity: 0.9;
+    transform: translateY(-1px);
+  }
+  
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  
+}
+
+.modal-content {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 500px;
+  max-height: 80vh;
+  overflow-y: auto;
+  position: relative;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+.close-modal {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #666;
+  transition: color 0.2s;
+
+}
+.close-modal:hover {
+  color: #333;
+}
+.team-members-list {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 1.5rem 0;
+}
+
+.team-member-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.8rem 1rem;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 0.5rem;
+  background-color: #f9f9f9;
+  border-radius: 6px;
+}
+.team-member-item:last-child {
+  border-bottom: none;
+}
+
+.voir_team_membres {
+  color: #4299e1;
+  cursor: pointer;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+  text-decoration: underline;
+}
+.team-member-item > span {
+  flex-grow: 1;
+  margin-right: 1rem;
+  font-weight: 500;
+}
+
+.voir_team_membres:hover {
+  color: #3182ce;
+}
+
+  @media (max-width: 640px) {
+    .profile-container {
+      padding: 1.5rem;
+      margin: 1rem;
+    }
+    
+    .roles-list {
+      flex-wrap: wrap;
+    }
+  }

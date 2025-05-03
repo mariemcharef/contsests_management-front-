@@ -1,0 +1,199 @@
+.problem {
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    border-left: 4px solid #4a6fa5;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .problems-container  {
+    text-align: center;
+    margin-right: 220px; /* sidebar width + margin */
+    padding: 20px;
+    font-size: 1.2rem;
+    color: #666;
+    padding: 2rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', sans-serif;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+  }
+  .problem:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  }
+  .problem-link{
+    text-decoration: none;
+    color: inherit;
+  }
+  .problem-info h3 {
+    margin: 0;
+    color: #2c3e50;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-right: 30px;
+    text-decoration: none;
+  }
+  .problem-info{
+    display: flex;
+    cursor: pointer;
+    
+  }
+  .topics {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: none
+  }
+  .topic {
+    background: #e0e7ff; 
+    padding: 0.3rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin: 0;
+    margin-right: 10px;
+  }
+
+ 
+  .topics-checkbox-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 20px;
+  }
+  .topic-checkbox input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  .topic-checkbox label {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #f0f0f0;
+    color: #333;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-size: 14px;
+    user-select: none;
+  }
+  .topic-checkbox label:hover {
+    background-color: #e0e0e0;
+  }
+  .topic-checkbox input[type="checkbox"]:checked + label {
+    background-color: #001F3F;
+    color: white;
+    font-weight: 500;
+  }
+  .topic-checkbox input[type="checkbox"]:focus + label {
+    box-shadow: 0 0 0 2px rgba(63, 81, 181, 0.3);
+  }
+
+.filter-sidebar {
+  position: fixed;
+  right: 20px;
+  top: 120px; /* Adjust based on your header height */
+  width: 250px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  padding: 15px;
+  z-index: 100;
+  
+}
+
+.filter-header {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #333;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #eee;
+}
+
+.topics-checkbox-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-height: 70vh;
+  overflow-y: auto;
+  padding-right: 5px;
+}
+
+.topic-checkbox {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.topic-checkbox input {
+  position: absolute;
+  opacity: 0;
+}
+
+.topic-checkbox label {
+  display: block;
+  width: 100%;
+  padding: 8px 12px;
+  background: #f8f9fa;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-size: 0.9rem;
+}
+
+.topic-checkbox label:hover {
+  background: #e9ecef;
+}
+
+.topic-checkbox input:checked + label {
+  background: #3a86ff;
+  color: white;
+  font-weight: 500;
+}
+
+
+.topics-checkbox-container::-webkit-scrollbar {
+  width: 6px;
+}
+
+.topics-checkbox-container::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 3px;
+}
+
+.topics-checkbox-container::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 3px;
+}
+
+.topics-checkbox-container::-webkit-scrollbar-thumb:hover {
+  background: #aaa;
+}
+.content{
+  min-height: 1000px;
+  
+}
+@media (max-width: 600px) {
+  .problems-container {
+    padding: 0 0.5rem;
+    gap: 1rem;
+  }
+  
+  .problem {
+    padding: 1.2rem;
+  }
+  
+  .problem-info h3:first-child {
+    font-size: 1.2rem;
+  }
+  .filter-sidebar{
+    padding: 0 0.5rem;
+    gap: 1rem;
+    max-width: 150px;
+  }
+}
