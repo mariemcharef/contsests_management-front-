@@ -10,7 +10,7 @@ Built with **ReactJS** (frontend) and **Spring Boot + PostgreSQL** (backend).
 - 📚 **Problems Page** with statement, input/output, and submissions
 - 👥 User authentication
 
- ## 📸 Screenshots
+ ## 📸 Demo
 
 ### 🔹 Scoreboard
 ![Scoreboard Screenshot](images/scoredoard.png)
