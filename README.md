@@ -13,7 +13,7 @@ Built with **ReactJS** (frontend) and **Spring Boot + PostgreSQL** (backend).
  ## 📸 Screenshots
 
 ### 🔹 Scoreboard
-![Scoreboard Screenshot](./screenshots/scoreboard.png)
+![Scoreboard Screenshot](./scoreboard.png)
 
 ### 🔹 Code Editor
 ![Code Editor Screenshot](./screenshots/editor.png)
