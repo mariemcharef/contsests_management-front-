@@ -16,15 +16,15 @@ Built with **ReactJS** (frontend) and **Spring Boot + PostgreSQL** (backend).
 ![Scoreboard Screenshot](images/scoredoard.png)
 
 ### 🔹 Code Editor
-![Code Editor Screenshot](./screenshots/editor.png)
+![Code Editor Screenshot](images/codeeditor.png)
 
 ### 🔹 Clarification Page
-![Clarification Screenshot](./screenshots/clarification.png)
+![Clarification Screenshot](images/clarification.png)
 
 ### 🔹 Problems Page
-![Problems Screenshot](./screenshots/problems.png)
+![Problems Screenshot](images/problems.png)
 ### 🔹 Submission Details Page
-![Problems Screenshot](./screenshots/submission.png)
+![Problems Screenshot](./images/submission.png)
 
 ## 🛠 Tech Stack
 - **Frontend:** ReactJS
