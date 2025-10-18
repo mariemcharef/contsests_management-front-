@@ -12,7 +12,11 @@ Built with **ReactJS** (frontend) and **Spring Boot + PostgreSQL** (backend).
 
  ## 📸 Demo
 ### 🔹 Home Page
-![Scoreboard Screenshot](images/home.png)
+![Home page Screenshot](images/home.png)
+
+### 🔹 Account Settings
+![Account settings Screenshot](images/ac.png)
+
 
 ### 🔹 Scoreboard
 ![Scoreboard Screenshot](images/scoredoard.png)
