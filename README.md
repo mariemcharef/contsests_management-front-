@@ -11,6 +11,8 @@ Built with **ReactJS** (frontend) and **Spring Boot + PostgreSQL** (backend).
 - 👥 User authentication
 
  ## 📸 Demo
+### 🔹 Home Page
+![Scoreboard Screenshot](images/home.png)
 
 ### 🔹 Scoreboard
 ![Scoreboard Screenshot](images/scoredoard.png)
