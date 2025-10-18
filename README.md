@@ -17,6 +17,9 @@ Built with **ReactJS** (frontend) and **Spring Boot + PostgreSQL** (backend).
 ### 🔹 Account Settings
 ![Account settings Screenshot](images/ac.png)
 
+### 🔹 Problem Statement
+![Problem statement Screenshot](images/pr1.png)
+![Problem statement Screenshot](images/pr2.png)
 
 ### 🔹 Scoreboard
 ![Scoreboard Screenshot](images/scoredoard.png)
